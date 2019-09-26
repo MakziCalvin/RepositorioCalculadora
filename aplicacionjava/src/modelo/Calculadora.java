@@ -22,16 +22,32 @@ public class Calculadora {
     }
 
     public int sumar(){
-        return this.num1+this.num2;
+        if(num1!=0&&num2!=0){
+        return this.num1+this.num2;}
+        else{
+            return 0;
+        }
     }
     public int restar(){
-        return this.num1-this.num2;
+        if(num1!=0&&num2!=0){
+        return this.num1-this.num2;}
+        else{
+            return 0;
+        }
     }
     public int multiplicar(){
-        return this.num1*this.num2;
+        if(num1!=0&&num2!=0){
+        return this.num1*this.num2;}
+        else{
+            return 0;
+        }
     }
     public int division(){
-        return this.num1/this.num2;
+        if(num1!=0&&num2!=0){
+        return this.num1/this.num2;}
+        else{
+            return 0;
+        }
     }
     
     
